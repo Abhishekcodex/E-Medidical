@@ -1,0 +1,9 @@
+.Navbar{
+    background-color: #87E99F;
+    color: rgb(175, 35, 35);
+    font-weight: 500;
+    place-items: center;
+}
+.Nav:hover{
+    cursor: pointer;
+}

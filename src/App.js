@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-
+import RedirectRoutes from './containers/routes';
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <BrowserRouter>
+      <RedirectRoutes />
+    </BrowserRouter>
   );
 }
 
